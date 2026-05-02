@@ -3,8 +3,13 @@
 import { FaArrowDown, FaPaperPlane, FaPlaneArrival } from "react-icons/fa";
 import { motion } from 'framer-motion'
 import { buttonHoverEffects, scrollDownEffects, scrollLeftEffects, scrollUpDelayEffects, scrollUpEffects } from "../animations/animate";
-
+import CountUp from "react-countup";
+import { useInView } from "react-intersection-observer";
 export default function HeroSection(){
+    const { ref, inView } = useInView({
+        triggerOnce: true,
+        threshold: 0.8,
+    });
     const leftbadge = "<";
     const rightbadge = "/>";
     const tech = [
@@ -24,7 +29,9 @@ export default function HeroSection(){
 
     return(
         <>
-            <div className="mt-20 lg:mt-16 p-3 lg:p-5 w-full h-auto flex flex-col items-center justify-center bg-[#0A0A0F]" id="home">
+            <div 
+                ref={ref}
+                className="mt-20 lg:mt-16 p-3 lg:p-5 w-full h-auto flex flex-col items-center justify-center bg-[#0A0A0F]" id="home">
                 <div className="w-auto md:w-[75%] lg:w-[50%] flex flex-col items-center p-3 lg:p-5">
                     <motion.div 
                         {...scrollDownEffects}
@@ -53,7 +60,15 @@ export default function HeroSection(){
                         className="flex flex-row space-x-10 md:space-x-15 mt-8">
                         {tech.map((data, index) => (
                             <div key={index} className="flex flex-col space-y-2 text-center">
-                                <h3 className="text-[#FFFFFF] text-2xl font-bold">{data.title}+</h3>
+                                <h3 className="text-[#FFFFFF] text-2xl font-bold">
+                                    {inView && (
+                                    <CountUp 
+                                        start={0} 
+                                        end={data.title} 
+                                        duration={2 + index * 0.3} 
+                                    />
+                                )}+
+                                </h3>
                                 <p className="text-[#71717A] text-center text-xs">{data.text}</p>
                             </div>
                         ))}
