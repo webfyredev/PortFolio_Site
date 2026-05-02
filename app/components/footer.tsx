@@ -34,8 +34,8 @@ export default function Footer(){
 
                 </div>
                 <div className="flex space-x-4">
-                    {social.map((data) => (
-                        <a href={data.link} className="text-[13px] flex items-center text-[#71717A] hover:text-[#FFFFFF] transition-all duration-200">
+                    {social.map((data, index) => (
+                        <a key={index} href={data.link} className="text-[13px] flex items-center text-[#71717A] hover:text-[#FFFFFF] transition-all duration-200">
                             <data.icon  className=" mr-1"/>
                             {data.text}
                         </a>
