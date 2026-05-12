@@ -74,6 +74,7 @@ export default function Contacts(){
 
                     <motion.form 
                         {...scrollUpDelayEffects}
+                        method="POST"
                         action = "https://formspree.io/f/movpgazy"
                         className="w-full lg:w-1/2 p-4 lg:p-7 rounded-xl bg-[#FFFFFF0D] border-1 border-[#FFFFFF1A] flex flex-col space-y-3.5">
                         <div className="flex flex-col">
