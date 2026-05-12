@@ -74,30 +74,32 @@ export default function Contacts(){
 
                     <motion.form 
                         {...scrollUpDelayEffects}
+                        action = "https://formspree.io/f/movpgazy"
                         className="w-full lg:w-1/2 p-4 lg:p-7 rounded-xl bg-[#FFFFFF0D] border-1 border-[#FFFFFF1A] flex flex-col space-y-3.5">
                         <div className="flex flex-col">
                             <label htmlFor="" className="text-[#71717A] text-[12px]">
                                 Name
                             </label>
-                            <input type="text" placeholder="Your name" className="w-full h-11 border-1 border-[#FFFFFF1A] text-sm text-[#71717A] mt-1 rounded-lg px-2 bg-[#FFFFFF0D] focus:outline-none focus:ring-2 focus:ring-[#00D4FF33] focus:border-transparent" />
+                            <input type="text" name="name" placeholder="Your name" className="w-full h-11 border-1 border-[#FFFFFF1A] text-sm text-[#71717A] mt-1 rounded-lg px-2 bg-[#FFFFFF0D] focus:outline-none focus:ring-2 focus:ring-[#00D4FF33] focus:border-transparent required" />
                         </div>
                         <div className="flex flex-col">
                             <label htmlFor="" className="text-[#71717A] text-[12px]">
                                 Email
                             </label>
-                            <input type="email" placeholder="your@gmail.com" className="w-full h-11 border-1 border-[#FFFFFF1A] text-sm text-[#71717A] mt-1 rounded-lg px-2 bg-[#FFFFFF0D] focus:outline-none focus:ring-2 focus:ring-[#00D4FF33] focus:border-transparent" />
+                            <input type="email" name="email" placeholder="your@gmail.com" className="w-full h-11 border-1 border-[#FFFFFF1A] text-sm text-[#71717A] mt-1 rounded-lg px-2 bg-[#FFFFFF0D] focus:outline-none focus:ring-2 focus:ring-[#00D4FF33] focus:border-transparent required" />
                         </div>
                         <div className="flex flex-col">
                             <label htmlFor="" className="text-[#71717A] text-[12px]">
                                 Message
                             </label>
-                            <textarea name="" id="" placeholder="Tell me about your project..." className="w-full h-30 border-1 border-[#FFFFFF1A] text-sm text-[#71717A] mt-1 rounded-lg p-2 bg-[#FFFFFF0D] focus:outline-none focus:ring-2 focus:ring-[#00D4FF33] focus:border-transparent"></textarea>
+                            <textarea name="message"  id="" placeholder="Tell me about your project..." className="w-full h-30 border-1 border-[#FFFFFF1A] text-sm text-[#71717A] mt-1 rounded-lg p-2 bg-[#FFFFFF0D] focus:outline-none focus:ring-2 focus:ring-[#00D4FF33] focus:border-transparent required"></textarea>
                             {/* <input type="email" placeholder="your@gmail.com" className="w-full h-11 border-1 border-[#FFFFFF1A] text-sm text-[#71717A] mt-1 rounded-lg px-2 bg-[#FFFFFF0D] focus:outline-none focus:ring-2 focus:ring-[#00D4FF33] focus:border-transparent" /> */}
                         </div>
                         <div className="w-full ">
                             <p className="text-[#71717A] text-[12px] text-end">Max 500 characters</p>
                         </div>
-                        <motion.button 
+                        <motion.button
+                            type="submit"
                             {...buttonHoverEffects}
                             className="text-sm font-medium w-full h-11 rounded-full cursor-pointer text-white mt-4 bg-gradient-to-br from-[#00D4FF] to-[#8B5CF6]">
                             Send Message
