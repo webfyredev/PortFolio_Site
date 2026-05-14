@@ -60,6 +60,15 @@ export default function Projects(){
             tool : ['React', 'TailwindCSS'],
             github_link : 'https://github.com/webfyredev/ShynWorks',
             live_link : 'https://shyn-works.vercel.app/',
+        },
+        {
+            image : '/pj7.png',
+            stack : 'Frontend',
+            title : 'Fitness Websites (GYM)',
+            sub_title  : 'A modern and responsive fitness website designed for gyms and personal trainers',
+            tool : ['Next.js', 'TailwindCSS'],
+            github_link : 'https://github.com/webfyredev/IronCore_Fitness',
+            live_link : 'https://iron-core-fitness-two.vercel.app/'
         }
         
     ]
