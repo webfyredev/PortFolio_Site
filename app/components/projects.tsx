@@ -22,7 +22,7 @@ export default function Projects(){
             title : 'HopeBloom Africa - NGO Websites',
             sub_title : 'A fully responsive NGO platform focused on community development, featuring programs, impact metrics, stories, and seamless user engagement.',
             tool : ['React', 'TailwindCSS', 'Django', 'Framer-Motion', 'DRF'],
-            github_link : 'https://github.com/webfyredev/Aurelium_University',
+            github_link : 'https://github.com/webfyredev/HopeBloom_Africa',
             live_link : 'https://hopebloomafrica.vercel.app/'
         },
         {
