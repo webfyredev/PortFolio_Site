@@ -1,9 +1,9 @@
 "use client";
-import { FaCode } from "react-icons/fa";
+import { FaCertificate, FaCode } from "react-icons/fa";
 import { FiCode } from "react-icons/fi";
 import { LuUser } from "react-icons/lu";
 import { motion } from 'framer-motion'
-import { scrollUpDelayEffects, scrollUpEffects } from "../animations/animate";
+import { buttonHoverEffects, scrollUpDelayEffects, scrollUpEffects } from "../animations/animate";
 
 export default function About(){
     return(
@@ -27,10 +27,10 @@ export default function About(){
                         <p className="text-[#A1A1AA]">I believe great software is born at the intersection of clean code, thoughtful design, and genuine user empathy. Every project I build is a step toward mastering the craft of full-stack engineering.</p>
                     </motion.div>
                 </div>
-                <div className="w-full lg:w-1/2 flex items-center justify-center">
+                <div className="w-full lg:w-1/2 flex flex-col justify-center px-3">
                     <motion.div 
                         {...scrollUpDelayEffects}
-                        className="w-[95%] lg:w-[80%] p-5 lg:p-8 rounded-2xl bg-[#FFFFFF0D] border-1 border-[#FFFFFF1A] flex flex-col justify-left relative">
+                        className="w-[95%] lg:w-[90%] p-5 lg:p-8 rounded-2xl bg-[#FFFFFF0D] border-1 border-[#FFFFFF1A] flex flex-col justify-left relative">
                         <p className="text-[#71717A] font-normal text-[12px]">MY STORY</p>
                         <h3 className="text-[#FFFFFF] font-semibold text-lg mt-5">
                             "From writing my first HTML tag to architecting full-stack systems, every line of code taught me something new. The journey from curiosity to capability is what drives me every single day."
@@ -44,7 +44,7 @@ export default function About(){
                                 <p className="text-[#71717A] font-normal text-[12px]">Full Stack Developer</p>
                             </div>
                         </div>
-                        <div className="animate-bounce w-auto bg-[#FFFFFF0D] border-1 border-[#FFFFFF1A] absolute bottom-[-25px] left-[-25px] p-2 rounded-xl flex space-x-4">
+                        <div className="animate-bounce w-auto bg-[#FFFFFF0D] border-1 border-[#FFFFFF1A] absolute bottom-[-30px] left-[-25px] p-2 rounded-xl flex space-x-4">
                             <span className="w-9 h-9 bg-[#00D4FF1A] text-[#00D4FF] rounded-lg flex items-center justify-center">
                                 <FiCode />
                             </span>
@@ -53,7 +53,15 @@ export default function About(){
                                 <p className="text-[#71717A] font-normal text-[10px]">1000+ commits</p>
                             </div>
                         </div>
+                        
                     </motion.div>
+                    <motion.a 
+                        {...buttonHoverEffects}
+                        href="https://drive.google.com/drive/folders/1XGGkBDw7tixYj2qaQf27OAJDPM3DDcG0?usp=drive_link" 
+                        className="w-45 font-medium mt-10 bg-[linear-gradient(135deg,#00D4FF,#8B5CF6)] text-white flex items-center justify-center py-2.5 rounded-xl cursor-pointer hover:rounded-sm transition-all duration-300">
+                        <FaCertificate  className="mr-2"/> Certifications
+                    </motion.a>
+                    
                 </div>
             </div>
         </>
