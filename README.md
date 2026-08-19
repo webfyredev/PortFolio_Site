@@ -1,36 +1,158 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Oyinlade — Full Stack Developer Portfolio
 
-## Getting Started
+A modern, responsive developer portfolio showcasing my skills, projects, experience, and journey as a Full Stack Developer.
 
-First, run the development server:
+**Live Portfolio:** https://oyinladeportfolio.vercel.app/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## About
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+I’m a Full Stack Developer passionate about building modern, scalable, and user-focused web applications.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+My primary focus is on creating seamless frontend experiences while building reliable backend systems and APIs. I enjoy turning ideas into functional products with clean code, thoughtful architecture, and intuitive user interfaces.
 
-## Learn More
+### Core Focus
 
-To learn more about Next.js, take a look at the following resources:
+* Modern frontend development
+* RESTful API development
+* Full-stack web applications
+* Responsive and accessible UI
+* Database-driven applications
+* Clean and scalable architecture
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Tech Stack
 
-## Deploy on Vercel
+### Frontend
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* React
+* Next.js
+* TypeScript
+* JavaScript
+* Tailwind CSS
+* HTML5
+* CSS3
+* Framer Motion
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Backend
+
+* Python
+* Django
+* Django REST Framework
+* PostgreSQL
+* API Design
+
+### Tools & DevOps
+
+* Git
+* GitHub
+* Postman
+* Vercel
+* Render
+
+---
+
+## Featured Projects
+
+### LifeCare — Hospital Management Platform
+
+A modern healthcare platform designed to improve access to healthcare information and streamline interactions between patients and healthcare providers.
+
+**Technologies:** React, Tailwind CSS, Django, Django REST Framework, Framer Motion
+
+[Live Demo](https://life-care-websites.vercel.app/)
+
+---
+
+### HopeBloom Africa — NGO Platform
+
+A responsive NGO platform focused on community development, featuring programs, impact metrics, stories, and user engagement.
+
+**Technologies:** React, Tailwind CSS, Django, Django REST Framework, Framer Motion
+
+[Live Demo](https://hopebloomafrica.vercel.app/)
+
+---
+
+### Aurelium — University Platform
+
+A modern university website designed to showcase academic programs, resources, campus activities, and other educational information.
+
+**Technologies:** Next.js, Tailwind CSS
+
+[Live Demo](https://aurelium-university.vercel.app/)
+
+---
+
+### SwiftEase — Logistics Platform
+
+A modern logistics platform focused on delivery services, tracking, and a responsive user experience.
+
+**Technologies:** React, Tailwind CSS, Django, Django REST Framework, Framer Motion
+
+[Live Demo](https://swift-ease.vercel.app/)
+
+---
+
+### Structura — Construction Platform
+
+A modern construction website designed to showcase services, projects, and provide an engaging experience for potential clients.
+
+**Technologies:** React, Tailwind CSS, Django, Django REST Framework, Framer Motion
+
+[Live Demo](https://structural-construction.vercel.app/)
+
+---
+
+### Shyn Works — Cleaning Agency
+
+A responsive cleaning service website designed to showcase professional cleaning services and encourage customer engagement.
+
+**Technologies:** React, Tailwind CSS
+
+[Live Demo](https://shyn-works.vercel.app/)
+
+---
+
+### Iron Core Fitness — Gym Platform
+
+A modern and responsive fitness website designed for gyms and personal trainers.
+
+**Technologies:** Next.js, Tailwind CSS
+
+[Live Demo](https://iron-core-fitness-two.vercel.app/)
+
+---
+
+##  Portfolio Features
+
+* Responsive design across devices
+* Modern and clean UI
+* Smooth animations and interactions
+* Project showcase
+* Skills and technology overview
+* Developer journey timeline
+* Contact section
+* Social media integration
+* Optimized navigation and user experience
+
+
+##  Contact
+
+Interested in working together or discussing a project?
+
+**Email:** [oyinbook@gmail.com](mailto:oyinbook@gmail.com)
+
+**Location:** Nigeria
+
+**Portfolio:** https://oyinladeportfolio.vercel.app/
+
+---
+
+##  License
+
+This project is personal portfolio work created by Oyinlade.
+
+© 2026 Oyinlade. All rights reserved.
